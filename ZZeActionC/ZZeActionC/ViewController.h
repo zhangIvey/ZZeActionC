@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+/**
+ 调试模块的方法
+ */
+- (void)doSomething;
 
 @end
 

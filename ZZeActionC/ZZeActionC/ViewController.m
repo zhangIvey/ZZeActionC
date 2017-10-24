@@ -14,6 +14,11 @@
 
 @implementation ViewController
 
+
+- (void)doSomething {
+    NSLog(@"ZZeActionC -- 0.0.1");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
