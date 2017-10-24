@@ -13,7 +13,7 @@
 		75EAA36C1F9DF07C00A8DBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA36B1F9DF07C00A8DBCF /* Assets.xcassets */; };
 		75EAA36F1F9DF07C00A8DBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA36D1F9DF07C00A8DBCF /* LaunchScreen.storyboard */; };
 		75EAA3721F9DF07C00A8DBCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3711F9DF07C00A8DBCF /* main.m */; };
-		75EAA37D1F9F443800A8DBCF /* C_options.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA37C1F9F443800A8DBCF /* C_options.m */; };
+		75EAA3811F9F476800A8DBCF /* C_options.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3801F9F476800A8DBCF /* C_options.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		75EAA36E1F9DF07C00A8DBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75EAA3701F9DF07C00A8DBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75EAA3711F9DF07C00A8DBCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75EAA37B1F9F443800A8DBCF /* C_options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C_options.h; sourceTree = "<group>"; };
-		75EAA37C1F9F443800A8DBCF /* C_options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C_options.m; sourceTree = "<group>"; };
+		75EAA37F1F9F476800A8DBCF /* C_options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C_options.h; path = ZZeActionC/options/C_options.h; sourceTree = SOURCE_ROOT; };
+		75EAA3801F9F476800A8DBCF /* C_options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C_options.m; path = ZZeActionC/options/C_options.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		75EAA37E1F9F45A400A8DBCF /* options */ = {
 			isa = PBXGroup;
 			children = (
-				75EAA37B1F9F443800A8DBCF /* C_options.h */,
-				75EAA37C1F9F443800A8DBCF /* C_options.m */,
+				75EAA37F1F9F476800A8DBCF /* C_options.h */,
+				75EAA3801F9F476800A8DBCF /* C_options.m */,
 			);
 			name = options;
 			path = "New Group";
@@ -156,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75EAA37D1F9F443800A8DBCF /* C_options.m in Sources */,
+				75EAA3811F9F476800A8DBCF /* C_options.m in Sources */,
 				75EAA3671F9DF07B00A8DBCF /* ViewController.m in Sources */,
 				75EAA3721F9DF07C00A8DBCF /* main.m in Sources */,
 				75EAA3641F9DF07B00A8DBCF /* AppDelegate.m in Sources */,
