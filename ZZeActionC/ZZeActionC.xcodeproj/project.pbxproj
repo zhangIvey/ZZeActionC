@@ -27,8 +27,8 @@
 		75EAA36E1F9DF07C00A8DBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75EAA3701F9DF07C00A8DBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75EAA3711F9DF07C00A8DBCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75EAA37B1F9F443800A8DBCF /* C_options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C_options.h; path = options/C_options.h; sourceTree = "<group>"; };
-		75EAA37C1F9F443800A8DBCF /* C_options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = C_options.m; path = options/C_options.m; sourceTree = "<group>"; };
+		75EAA37B1F9F443800A8DBCF /* C_options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C_options.h; sourceTree = "<group>"; };
+		75EAA37C1F9F443800A8DBCF /* C_options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C_options.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,7 @@
 		75EAA3611F9DF07B00A8DBCF /* ZZeActionC */ = {
 			isa = PBXGroup;
 			children = (
-				75EAA37B1F9F443800A8DBCF /* C_options.h */,
-				75EAA37C1F9F443800A8DBCF /* C_options.m */,
+				75EAA37E1F9F45A400A8DBCF /* options */,
 				75EAA3621F9DF07B00A8DBCF /* AppDelegate.h */,
 				75EAA3631F9DF07B00A8DBCF /* AppDelegate.m */,
 				75EAA3651F9DF07B00A8DBCF /* ViewController.h */,
@@ -74,6 +73,16 @@
 				75EAA3711F9DF07C00A8DBCF /* main.m */,
 			);
 			path = ZZeActionC;
+			sourceTree = "<group>";
+		};
+		75EAA37E1F9F45A400A8DBCF /* options */ = {
+			isa = PBXGroup;
+			children = (
+				75EAA37B1F9F443800A8DBCF /* C_options.h */,
+				75EAA37C1F9F443800A8DBCF /* C_options.m */,
+			);
+			name = options;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
