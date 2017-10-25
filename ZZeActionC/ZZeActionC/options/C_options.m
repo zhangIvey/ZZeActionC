@@ -23,7 +23,7 @@
     NSLog(@"ZZeActionC -- 0.0.13 ：添加第三方的依赖库");
     NSLog(@"ZZeActionC -- 0.0.14 ：添加第三方的依赖库:AFNetworking");
     NSLog(@"ZZeActionC -- 0.0.15 ：添加第三方的依赖库:JSONKit,AFNetworking");
-    NSLog(@"ZZeActionC -- 0.0.17 ：添加第三方的依赖库:JSONKit,AFNetworking,ZZeActionD");
+    NSLog(@"ZZeActionC -- 0.0.18 ：添加第三方的依赖库:JSONKit,AFNetworking,ZZeActionA");
 }
 
 @end
