@@ -7,6 +7,6 @@ target 'ZZeActionC' do
 
   # Pods for ZZeActionC
 
-pod 'ZZeActionD','0.0.1'
+pod 'ZZeActionD','0.0.2'
 
 end
