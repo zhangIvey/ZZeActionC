@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'ZZeActionC'
 
-spec.version               = '0.0.18'
+spec.version               = '0.0.19'
 
 spec.ios.deployment_target = '8.0'
 
@@ -29,6 +29,5 @@ spec.requires_arc          = true
 
 spec.dependency 'AFNetworking','3.1.0'
 spec.dependency 'JSONKit-ZW','2.0.4'
-spec.dependency 'ZZeActionA','0.0.3'
 end
 
