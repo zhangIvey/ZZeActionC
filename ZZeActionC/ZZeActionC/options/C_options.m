@@ -15,6 +15,7 @@
     NSLog(@"ZZeActionC -- 0.0.4");
     NSLog(@"ZZeActionC -- 0.0.6");
     NSLog(@"ZZeActionC -- 0.0.7");
+    NSLog(@"ZZeActionC -- 0.0.8");
 }
 
 @end

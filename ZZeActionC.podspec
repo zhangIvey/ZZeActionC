@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'ZZeActionC'
 
-spec.version               = '0.0.7'
+spec.version               = '0.0.8'
 
 spec.ios.deployment_target = '8.0'
 
