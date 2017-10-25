@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6485FF3E4013456E498E9A11 /* libPods-ZZeActionC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5470BC643DFA8780B1E6F762 /* libPods-ZZeActionC.a */; };
 		75EAA3641F9DF07B00A8DBCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3631F9DF07B00A8DBCF /* AppDelegate.m */; };
 		75EAA3671F9DF07B00A8DBCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA3661F9DF07B00A8DBCF /* ViewController.m */; };
 		75EAA36A1F9DF07B00A8DBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA3681F9DF07B00A8DBCF /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		019EBFAD294052FD7647BA2A /* Pods-ZZeActionC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZeActionC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZeActionC/Pods-ZZeActionC.debug.xcconfig"; sourceTree = "<group>"; };
+		337C527AE3512DA49414C135 /* Pods-ZZeActionC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZeActionC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZeActionC/Pods-ZZeActionC.release.xcconfig"; sourceTree = "<group>"; };
+		5470BC643DFA8780B1E6F762 /* libPods-ZZeActionC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZeActionC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EAA35F1F9DF07B00A8DBCF /* ZZeActionC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZeActionC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EAA3621F9DF07B00A8DBCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75EAA3631F9DF07B00A8DBCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6485FF3E4013456E498E9A11 /* libPods-ZZeActionC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0096302C0C1C4D957123DB6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				019EBFAD294052FD7647BA2A /* Pods-ZZeActionC.debug.xcconfig */,
+				337C527AE3512DA49414C135 /* Pods-ZZeActionC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		75EAA3561F9DF07A00A8DBCF = {
 			isa = PBXGroup;
 			children = (
 				75EAA3611F9DF07B00A8DBCF /* ZZeActionC */,
 				75EAA3601F9DF07B00A8DBCF /* Products */,
+				0096302C0C1C4D957123DB6D /* Pods */,
+				8821C1F8393BAC0F9F36CF8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +100,14 @@
 			path = options;
 			sourceTree = "<group>";
 		};
+		8821C1F8393BAC0F9F36CF8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5470BC643DFA8780B1E6F762 /* libPods-ZZeActionC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75EAA3751F9DF07C00A8DBCF /* Build configuration list for PBXNativeTarget "ZZeActionC" */;
 			buildPhases = (
+				FDED47C58C5F9C054A7D6E99 /* [CP] Check Pods Manifest.lock */,
 				75EAA35B1F9DF07B00A8DBCF /* Sources */,
 				75EAA35C1F9DF07B00A8DBCF /* Frameworks */,
 				75EAA35D1F9DF07B00A8DBCF /* Resources */,
+				3A0613D91B237755414BC36F /* [CP] Embed Pods Frameworks */,
+				A42C9033ECB14C91F23294A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +176,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A0613D91B237755414BC36F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZeActionC/Pods-ZZeActionC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42C9033ECB14C91F23294A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZeActionC/Pods-ZZeActionC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDED47C58C5F9C054A7D6E99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZeActionC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75EAA35B1F9DF07B00A8DBCF /* Sources */ = {
@@ -290,6 +368,7 @@
 		};
 		75EAA3761F9DF07C00A8DBCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019EBFAD294052FD7647BA2A /* Pods-ZZeActionC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +382,7 @@
 		};
 		75EAA3771F9DF07C00A8DBCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337C527AE3512DA49414C135 /* Pods-ZZeActionC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
