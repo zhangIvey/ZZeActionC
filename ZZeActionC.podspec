@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'ZZeActionC'
 
-spec.version               = '0.0.10'
+spec.version               = '0.0.11'
 
 spec.ios.deployment_target = '8.0'
 
@@ -17,7 +17,7 @@ spec.summary               = '测试模块C'
 
 spec.source                = { :git => 'https://github.com/zhangIvey/ZZeActionC.git', :tag => spec.version }
 
-spec.source_files          = "ZZeActionC/Classe/ZZeActionC/options/*.{h,m}"
+spec.source_files          = "ZZeActionC/ZZeActionC/options/*.{h,m}"
 
 # spec.resources             = "ZZeActionC/source.bundle"
 
