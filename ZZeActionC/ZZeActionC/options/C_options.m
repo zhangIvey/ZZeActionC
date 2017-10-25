@@ -27,6 +27,7 @@
     NSLog(@"ZZeActionC -- 0.0.19 ：添加第三方的依赖库:JSONKit,AFNetworking");
     NSLog(@"ZZeActionC -- 0.0.21 ：添加第三方的依赖库:JSONKit,AFNetworking");
     NSLog(@"ZZeActionC -- 0.0.24 ：添加第三方的依赖库:JSONKit,AFNetworking");
+    NSLog(@"ZZeActionC -- 0.0.25 ：添加第三方的依赖库:JSONKit,AFNetworking");
     D_options *d = [D_options new];
     [d doSomething];
 }
