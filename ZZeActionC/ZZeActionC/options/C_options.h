@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <D_options.h>
 @interface C_options : NSObject
 /**
  调试模块的方法
