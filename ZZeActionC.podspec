@@ -17,7 +17,7 @@ spec.summary               = '测试模块C'
 
 spec.source                = { :git => 'https://github.com/zhangIvey/ZZeActionC.git', :tag => spec.version }
 
-spec.source_files          = "ZZeActionC/options/{*.h,*.m}"
+spec.source_files          = "ZZeActionC/Classe/ZZeActionC/options/*.{h,m}"
 
 # spec.resources             = "ZZeActionC/source.bundle"
 
