@@ -9,6 +9,18 @@
 #import "C_options.h"
 
 @implementation C_options
+
+/**
+ 网络数据获取
+ */
+- (void)readNet
+{
+    NSString *urlString = @"http://192.168.20.244/NewWanbu/App/Api/index.php/PersonalInfoShow/getPcUserDeviceNew/userid/1064";
+    NSURL *url = [NSURL URLWithString:urlString];
+    
+}
+
+
 - (void)doSomething {
     NSLog(@"ZZeActionC -- 0.0.1");
     NSLog(@"ZZeActionC — 0.0.2");

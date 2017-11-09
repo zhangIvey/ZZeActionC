@@ -8,5 +8,6 @@ target 'ZZeActionC' do
   # Pods for ZZeActionC
 
 pod 'ZZeActionD','0.0.2'
+pod 'AFNetworking'
 
 end
