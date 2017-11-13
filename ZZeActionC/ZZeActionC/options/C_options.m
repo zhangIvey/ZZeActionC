@@ -15,11 +15,6 @@
  */
 - (void)readNet
 {
-    NSString *urlString = @"http://192.168.20.244/NewWanbu/App/Api/index.php/PersonalInfoShow/getPcUserDeviceNew/userid/1064";
-    NSURL *url = [NSURL URLWithString:urlString];
-    
-    
-    
     
 }
 
@@ -44,6 +39,7 @@
     NSLog(@"ZZeActionC -- 0.0.24 ：添加第三方的依赖库:JSONKit,AFNetworking");
     NSLog(@"ZZeActionC -- 0.0.25 ：添加第三方的依赖库:JSONKit,AFNetworking");
     NSLog(@"ZZeActionC -- 0.0.26 ：添加第三方的依赖库:JSONKit,AFNetworking");
+    NSLog(@"ZZeActionC -- 0.0.27");
     D_options *d = [D_options new];
     [d doSomething];
 }
