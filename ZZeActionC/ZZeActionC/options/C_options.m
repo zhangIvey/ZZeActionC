@@ -7,7 +7,6 @@
 //
 
 #import "C_options.h"
-#import <AFNetworking.h>
 @implementation C_options
 
 /**
